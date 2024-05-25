@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet Surprise</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="screen" id="screen1">
+        <div class="container">
+            <h1>Welcome, My Love!</h1>
+            <p>Click the button below to see a sweet surprise.</p>
+            <button onclick="showPoem()">See Surprise</button>
+        </div>
+    </div>
+    <div class="screen" id="screen2" style="display: none;">
+        <div class="container">
+            <h1>A Poem for You</h1>
+            <p id="poem">
+                Roses are red,<br>
+                Violets are blue,<br>
+                My love for you,<br>
+                Is forever true.<br><br>
+                The stars in the sky,<br>
+                Can't outshine your light,<br>
+                You make my days,<br>
+                So incredibly bright.<br><br>
+                So here is my heart,<br>
+                Wrapped up in a bow,<br>
+                Forever yours,<br>
+                This you should know.
+            </p>
+        </div>
+        <audio id="background-music" autoplay loop>
+            <source src="Noble_Maiden_Fair__Instrumental__-_Brave_FYC_Soundtrack(128k).mp3" type="audio/mp3">
+        </audio>
+        <audio id="click-sound">
+            <source src="1-Minute_Nature_Background_Sound(128k).mp3" type="audio/mp3">
+        </audio>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

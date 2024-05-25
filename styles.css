@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f9fa;
+}
+
+.screen {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.5); /* Background container menjadi hitam transparan */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Bayangan menjadi lebih gelap */
+    max-width: 500px;
+    width: 90%;
+    color: #fff; /* Warna teks menjadi putih */
+}
+
+h1 {
+    color: #ff6f00; /* Warna judul menjadi oranye terang */
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2em;
+    color: #ffe0b2; /* Warna teks menjadi kuning muda */
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #ff6f00; /* Warna tombol menjadi oranye terang */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #ffcc80; /* Warna tombol hover menjadi kuning lebih terang */
+}
+
+#screen2 {
+    background-image: url('1.jpg'); /* Gambar matahari terbenam */
+    background-size: cover;
+    background-position: center;
+}
+
+#poem {
+    white-space: pre-line;
+    color: #ffe0b2; /* Warna teks puisi menjadi kuning muda */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Tambahkan bayangan teks */
+}
